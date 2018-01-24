@@ -138,7 +138,7 @@ a:focus, a:hover {
 }
 
 .masthead .intro-body .brand-heading {
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .masthead .intro-body .intro-text {
@@ -151,7 +151,7 @@ a:focus, a:hover {
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
-    font-size: 50px;
+    font-size: 45px;
   }
   .masthead .intro-body .intro-text {
     font-size: 22px;
@@ -220,16 +220,16 @@ a:focus, a:hover {
 }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: #e58e26;
+  border: 1px solid #e58e26;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
   color: black;
-  border: 1px solid #42DCA3;
+  border: 1px solid #e58e26;
   outline: none;
-  background-color: #42DCA3;
+  background-color: #e58e26;
 }
 
 ul.banner-social-buttons {
