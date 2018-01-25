@@ -9,7 +9,7 @@ body {
   height: 100%;
 
   color: white;
-  background-color: black;
+  background-color: #242424;
 }
 
 html {
@@ -68,6 +68,7 @@ a {
 
   border-bottom: 1px solid fade-out(white, .7);
   background-color: black;
+  opacity: .9;
   .navbar-toggler {
     font-size: 14px;
 
