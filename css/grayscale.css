@@ -43,7 +43,7 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3;
+  color: #e58e26;
 }
 
 a:focus, a:hover {
@@ -192,6 +192,16 @@ a:focus, a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.fashion-section {
+  background-color:#141414;
+  border-top:1px solid #343434;
+  border-bottom:1px solid #343434;
+}
+
+.left {
+  float:left;
 }
 
 #map {
