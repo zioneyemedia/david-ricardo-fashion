@@ -4,7 +4,7 @@ body {
   width: 100%;
   height: 100%;
   color: white;
-  background-color: #242424;
+  background-color: #212223;
 }
 
 html {
@@ -172,8 +172,22 @@ a:focus, a:hover {
   border-radius: 100% !important;
   background: transparent;
 }
+.btn-circle-black {
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+  line-height: 45px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  color: black;
+  border: 2px solid black;
+  border-radius: 100% !important;
+  background: transparent;
+}
 
-.btn-circle:focus, .btn-circle:hover {
+.btn-circle:focus, .btn-circle-black:focus, .btn-circle:hover, .btn-circle-black:hover {
   color: white;
   outline: none;
   background: rgba(255, 255, 255, 0.1);
@@ -195,12 +209,18 @@ a:focus, a:hover {
 }
 
 .fashion-section {
+  color: white;
   background: url("../img/fashion-bg.jpg") no-repeat center center scroll;
   background-color: #242424;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.clothes-section {
+  color: #212223;
+  background-color:#fff;
 }
 
 #map {
@@ -234,11 +254,17 @@ a:focus, a:hover {
   background-color: transparent;
 }
 
-.btn-default:focus, .btn-default:hover {
+.btn-default:focus, .btn-default:hover, .btn-default-white:focus, .btn-default-white:hover {
   color: black;
   border: 1px solid #e58e26;
   outline: none;
   background-color: #e58e26;
+}
+
+.btn-default-white {
+  color:#fff;
+  border: 1px solid #fff;
+  background-color: transparent;
 }
 
 ul.banner-social-buttons {
